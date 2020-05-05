@@ -403,7 +403,7 @@ MoogliShape::get_specular_highlights_effect_color() const
 }
 
 
-MoogliShape::MoogliShapeUpdateCallback::MoogliShapeUpdateCallback(MoogliShape * shape): UpdateCallback()
+MoogliShape::MoogliShapeUpdateCallback::MoogliShapeUpdateCallback(MoogliShape * shape): Callback()
                                                               , shape(shape)
 { }
 

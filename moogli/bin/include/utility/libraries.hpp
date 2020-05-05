@@ -56,7 +56,8 @@
 #include <osgViewer/CompositeViewer>
 #include <osgViewer/GraphicsWindow>
 
-#include <osgQt/GraphicsWindowQt>
+// #include <osgQt/GraphicsWindowQt>
+#include <osgViewer/GraphicsWindow>
 
 #include <osgGA/TrackballManipulator>
 #include <osgGA/FirstPersonManipulator>
