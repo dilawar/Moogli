@@ -2,7 +2,6 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 PROJECT(moogli)
 SET(CMAKE_POLICY CMP0017 ON)
 
-
 # A phony target to setup correct depedencies. This is always out-of-date.
 add_custom_target(_moogli_all ALL)
 
